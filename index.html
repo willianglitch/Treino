@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- lingua da página  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- nome em cima do site -->
+    <title>just.playing</title>
+    <!-- caminho que ligar o CSS ao HTML  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- criando um lugar onde vc poder buscar de um site e ele abrirar qualquer coisa no youtuber/google  -->
+<body>
+    <h1 style="
+    text-shadow: 0px 2px 0px #708090;
+    text-align: center;
+    color: #BEBEBE;
+    font-size: 100px;
+    
+    ">faça uma pesquisa</h1>
+    <main id="bc">
+     <form action="https://www.youtube.com/results" method="GET" >
+        <div  class="db">
+            <h4>Youtuber</h4>
+            <input type="text" name="search_query" id="seach" placeholder="Escreva alguma coisa">
+            <input type="submit" value="pesquisa" >
+        </div>
+     </form>
+     <form action="https://www.google.com/search?" method="GET" >
+       <div class="db" >
+           <h4>Google</h4>
+           <input type="text" name="q" placeholder="write something">
+           <input type="submit" value="seach">
+       </div>
+
+
+
+     </form>
+
+     </main>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://images7.alphacoders.com/428/thumb-1920-428259.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #363636;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.db{
+    margin: 5px;
+    align-items: center;
+}
+h4{
+    text-align: center;
+    color: #363636;
+}
+form{ 
+   border: solid 1px #B0C4DE;
+   margin: 5px;
+   align-content: center;
+   background-image:linear-gradient(to right , #BCD2EE, #D1EEEE, #F0FFFF) ;
+}
+#bc{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    right: 50%;
+}
