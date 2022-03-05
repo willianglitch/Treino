@@ -22,20 +22,23 @@ body , html{
     align-items: center;
     justify-content: center;
 }
-h4{
-    text-align: center;
-    color: #363636;
+.cards{
+    height: 150PX;
+    width: 270px;
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 19px;
 }
-form{ 
-   border: solid 1px #B0C4DE;
-   margin: 5px;
-   align-content: center;
-   background-image:linear-gradient(to right , #BCD2EE, #D1EEEE, #F0FFFF) ;
-}
-#bc{
-    align-items: center;
+.cards-content{
     display: flex;
-    position: absolute;
-    left: 35%;
-    right: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards-content  h1{
+    margin-bottom: 5px;
+}
+.cards-content , form{
+    display: flex;
+    flex-direction: column;
 }
