@@ -12,19 +12,16 @@
 </head>
 <!-- criando um lugar onde vc poder buscar de um site e ele abrirar qualquer coisa no youtuber/google  -->
 <body>
-    <h1 style="
-    text-shadow: 0px 2px 0px #708090;
-    text-align: center;
-    color: #BEBEBE;
-    font-size: 100px;
-    
-    ">faça uma pesquisa</h1>
-    <main id="bc">
-         <form action="https://www.youtube.com/results" method="GET" >
-          <div  class="db">
-             <h4>Youtuber</h4>
-             <input type="text" name="search_query" id="seach" placeholder="Escreva alguma coisa">
-             <input type="submit" value="pesquisa" >
+
+    <h1 id="title">faça uma pesquisa</h1>
+    <main id="cards-position">
+         <div class="cards">
+               <div class="cards-content">
+                    <form action="https://www.youtube.com/results" method="GET" >
+                    <h4>Youtuber</h4>
+                    <input type="text" name="search_query" id="seach" placeholder="Escreva alguma coisa">
+                    <input type="submit" value="pesquisa" >
+               </div>
           </div>
      </form>
      <form action="https://www.google.com/search?" method="GET" >
