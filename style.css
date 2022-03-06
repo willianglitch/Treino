@@ -64,3 +64,20 @@ body , html{
     transition: 0.3s ease;
 }
 
+
+
+/*========================================== ADDING THE RESPOSITIVITI =============================  */
+
+@media (max-width :600px) {
+    #cards-position{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        margin-left: 0px;
+    }
+
+    
+}
+
