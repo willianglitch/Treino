@@ -73,9 +73,12 @@ body , html{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 100px;
     }
     .cards{
         margin-left: 0px;
+        margin-bottom: 40px;
+      
     }
 
     
